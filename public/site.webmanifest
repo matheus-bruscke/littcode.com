@@ -1,0 +1,7 @@
+{
+    "name": "Littcode",
+    "short_name": "Littcode",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone"
+  }

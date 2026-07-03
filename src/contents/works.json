@@ -1,0 +1,216 @@
+[
+  {
+    "company": "Bit Complete",
+    "role": "Developer II",
+    "description": "Shipped production features across three client platforms serving 13,000+ active users, driving measurable gains in file reliability, search performance, API response times, and AI-powered workflow automation.",
+    "startDate": "Mar 2024",
+    "endDate": "Jul 2025",
+    "highlights": [
+      "Eliminated 100% of file duplication failures across upload, move, and delete operations by implementing metadata validations within Firestore transactions",
+      "Reduced file search latency to 0.4ms by integrating Algolia with custom Firestore indexes, enabling instant cross-space file discovery for 3,000+ users",
+      "Built a multi-agent chat system for generating, reviewing, and version-controlling executable certification scripts with support for dynamic modifications and predefined templates",
+      "Cut AI certification script generation time by 60% (5 min → 2 min) by implementing PostgreSQL indexing across device family models",
+      "Reduced therapy scheduling API response time from 3s to 0.5s via optimized dynamic routing in Next.js, improving reliability for 10,000+ users",
+      "Implemented anonymous track submission flow with approval-gated private inbox access controls, improving upload accessibility for platform contributors"
+    ],
+    "technologies": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "SASS",
+      "CSS Modules",
+      "tRPC",
+      "PostgreSQL",
+      "Firestore",
+      "Firebase",
+      "Prisma",
+      "Drizzle",
+      "MySQL",
+      "AWS S3",
+      "GCP",
+      "Docker",
+      "React Testing Library",
+      "Cypress",
+      "Vercel",
+      "Netlify",
+      "Builder.io",
+      "Feature Flags",
+      "Monorepo"
+    ],
+    "projects": [
+      {
+        "name": "Highnote",
+        "description": "Music production collaboration platform",
+        "link": "https://highnote.com",
+        "icon": "/icons/highnote.svg"
+      },
+      {
+        "name": "Autonomi",
+        "description": "Network device certification automation platform",
+        "link": "https://autonomi.com",
+        "icon": "/icons/promptd.svg"
+      },
+      {
+        "name": "Octave",
+        "description": "Mental health services marketplace",
+        "link": "https://findoctave.com",
+        "icon": "/icons/octave.svg"
+      }
+    ]
+  },
+  {
+    "company": "Zipper",
+    "role": "Software Engineer",
+    "description": "Enhanced a TypeScript-native serverless platform by extending the code editor with type-safety tooling, modernizing the design system, and shipping OAuth integrations that expanded the platform's automation capabilities.",
+    "startDate": "Jul 2023",
+    "endDate": "Mar 2024",
+    "highlights": [
+      "Reduced Applet file load times by 62.5% (2s → 0.75s) by adopting SSR preloading for critical assets, significantly improving user experience",
+      "Extended the code editor with cross-file TypeScript linting and Prettier integration via a custom Language Server Protocol, enabling fully type-safe and error-free development",
+      "Migrated the design system from Chakra-UI to Tailwind CSS and CSS Modules, increasing UI flexibility and reducing legacy dependencies",
+      "Implemented OAuth integrations for Spotify, Linear, Discord, and Notion via a custom Better-auth module, unlocking new automation capabilities across the platform",
+      "Built a demo Applet library on Deno Land's serverless infrastructure, showcasing full platform integration use cases to prospective users"
+    ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "CSS Modules",
+      "Chakra-UI",
+      "tRPC",
+      "PostgreSQL",
+      "Prisma",
+      "Docker",
+      "Deno",
+      "Vercel",
+      "Monorepo",
+      "Feature Flags"
+    ],
+    "projects": [
+      {
+        "name": "Zipper",
+        "description": "TypeScript-native serverless platform for building internal tools and automations",
+        "link": "https://zipper.dev",
+        "icon": "/icons/zipper.svg"
+      }
+    ]
+  },
+  {
+    "company": "Ten Tree Studios",
+    "role": "Frontend Engineer",
+    "description": "Led frontend development of a Web3 NFT game from zero to 10,000+ active users on the WAX blockchain, building the design system, state architecture, and build infrastructure from the ground up.",
+    "startDate": "Jan 2022",
+    "endDate": "Feb 2023",
+    "highlights": [
+      "Led end-to-end development of Zombies Outbreak Survival, scaling the Web3 NFT game to 10,000+ active users on the WAX blockchain",
+      "Reduced WAX-chain asset load times by 80% (5s → 1s) by implementing a local-first caching strategy using IndexedDB",
+      "Designed and built a reusable React component library and scalable design system, streamlining development workflows across multiple concurrent projects",
+      "Optimized bundle size and build performance by authoring a custom Webpack configuration tailored to the gaming environment",
+      "Architected a monorepo with Yarn Workspaces and TurboRepo, improving cross-package dependency management and overall developer velocity"
+    ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "Redux",
+      "TanStack Query",
+      "tRPC",
+      "Webpack",
+      "TurboRepo",
+      "WAX Blockchain",
+      "IndexedDB",
+      "React Testing Library",
+      "Cypress",
+      "Vitest",
+      "Vercel",
+      "Monorepo"
+    ],
+    "projects": [
+      {
+        "name": "ZOS",
+        "description": "Web3 NFT survival game on the WAX blockchain",
+        "link": "https://zombiesoutbreak.io",
+        "icon": "/icons/zos.png"
+      }
+    ]
+  },
+  {
+    "company": "Foton Tech",
+    "role": "Frontend Software Engineer",
+    "description": "Built and launched two Web3 NFT games on the WAX blockchain, collectively reaching 8,000+ active users, while creating internal tooling that accelerated the company's blockchain portfolio.",
+    "startDate": "Aug 2021",
+    "endDate": "Nov 2021",
+    "highlights": [
+      "Led frontend development for 2 Web3 NFT games — Oliveland (3,000+ MAUs) and Beast Garden (5,000+ MAUs) — delivering wallet-based transactions, asset rendering, and gameplay mechanics on WAX blockchain",
+      "Built internal utility libraries that reduced delivery time across multiple concurrent Web3 game initiatives",
+      "Developed scalable TypeScript and React codebases integrated with WAX smart contracts to support fast-growing user bases"
+    ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "TanStack Query",
+      "tRPC",
+      "WAX Blockchain",
+      "Vercel",
+      "Netlify",
+      "Monorepo",
+      "Microservices"
+    ],
+    "projects": [
+      {
+        "name": "Oliveland",
+        "description": "Web3 NFT game on the WAX blockchain",
+        "link": "https://oliveland.io",
+        "icon": "/icons/oliveland.png"
+      },
+      {
+        "name": "Beast Garden",
+        "description": "Web3 NFT game on the WAX blockchain",
+        "link": "https://beastgarden.io",
+        "icon": "/icons/beast-garden.png"
+      }
+    ]
+  },
+  {
+    "company": "Tecnobyte Informatica",
+    "role": "Full Stack Web Developer",
+    "description": "Designed and developed SISVENDA, a web-based ERP system adopted by 100+ local businesses, independently owning the full product lifecycle from UI/UX design to backend integration and authentication.",
+    "startDate": "Feb 2020",
+    "endDate": "Jul 2021",
+    "highlights": [
+      "Developed SISVENDA, a full-featured web ERP system now adopted by 100+ local businesses, using React.js and Ant Design",
+      "Reduced page load time by 75% (2s → 0.5s) through caching strategies, code minification, React Query, and responsive design optimizations",
+      "Integrated OAuth2 and JWT-based authentication to enforce secure user access and data protection across the platform",
+      "Independently designed the full UI/UX prototype, enabling rapid product iteration without a dedicated design team",
+      "Maintained backward compatibility with legacy C#/.NET APIs by coordinating integration touchpoints with backend developers, ensuring seamless frontend-backend communication"
+    ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Ant Design",
+      "CSS",
+      "SASS",
+      "C#",
+      ".NET",
+      "Entity Framework",
+      "PostgreSQL",
+      "Netlify",
+      "Heroku",
+      "Microservices"
+    ],
+    "projects": [
+      {
+        "name": "SISVENDA",
+        "description": "Web-based ERP system for local businesses",
+        "link": "https://tecnobyte.com.br/",
+        "icon": "/icons/sisvenda.svg"
+      }
+    ]
+  }
+]

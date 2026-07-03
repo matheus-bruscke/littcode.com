@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Theme variables */
+@import "./globals.css";
+@import "./typograph.css";
+@import "./colors.css";
+@import "./utils.css";
+@import "./animations.css";

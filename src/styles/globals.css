@@ -1,0 +1,25 @@
+@layer base {
+	body {
+		@apply font-sans bg-ds-background text-ds-text;
+	}
+
+	::selection {
+		@apply bg-ds-primary text-ds-background;
+	}
+
+	pre code.hljs,
+	pre > code.hljs {
+		background: transparent !important;
+		padding: 0;
+	}
+
+	.hljs-addition,
+	.hljs-deletion {
+		background-color: transparent !important;
+	}
+
+	.markdown-image-caption::before {
+		content: attr(data-alt);
+		@apply absolute bottom-0 left-0 bg-ds-primary px-2 py-1 text-xs text-ds-background font-semibold;
+	}
+}
