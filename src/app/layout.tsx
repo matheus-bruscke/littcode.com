@@ -1,6 +1,7 @@
 import "@/styles/index.css";
 import { cx } from "class-variance-authority";
 import { NuqsAdapter } from "nuqs/adapters/next";
+import { Footer } from "@/components/layout/footer";
 import { GuideLines } from "@/components/layout/guide";
 import { Header } from "@/components/layout/header";
 import { aspekta, fragmentMono, vsrOsd } from "@/configs/fonts";
@@ -22,6 +23,7 @@ export default function RootLayout({
 					<Header />
 					<GuideLines />
 					{children}
+					<Footer />
 				</body>
 			</NuqsAdapter>
 		</html>

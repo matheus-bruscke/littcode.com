@@ -5,6 +5,23 @@ const SITE_NAME = "Littcode";
 const DEFAULT_DESCRIPTION = "Matheus Bruscke's portfolio and technical blog.";
 const DEFAULT_OG_IMAGE = "/og.jpg";
 
+const SOCIALS = {
+	bluesky: {
+		label: "Bluesky",
+		href: "https://bsky.app/profile/littcode.com",
+	},
+	linkedin: {
+		label: "LinkedIn",
+		href: "https://linkedin.com/in/matheus-bruscke",
+	},
+	github: {
+		label: "GitHub",
+		href: "https://github.com/matheus-bruscke",
+	},
+};
+
+const CALLENDLY_URL = "https://calendly.com/matheus-bruscke/30min";
+
 function absoluteUrl(path: string) {
 	return new URL(path, SITE_URL).toString();
 }
@@ -109,9 +126,11 @@ const metadata: Metadata = {
 };
 
 export {
+	CALLENDLY_URL,
 	createPageMetadata,
 	DEFAULT_DESCRIPTION,
 	metadata,
 	SITE_NAME,
 	SITE_URL,
+	SOCIALS,
 };
