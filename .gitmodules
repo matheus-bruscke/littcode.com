@@ -1,0 +1,3 @@
+[submodule "blog-posts"]
+	path = /public/posts
+	url = git@github.com:matheus-bruscke/blog-posts.git
