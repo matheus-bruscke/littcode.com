@@ -91,7 +91,7 @@
     "projects": [
       {
         "name": "Zipper",
-        "description": "TypeScript-native serverless platform for building internal tools and automations",
+        "description": "Serverless platform for internal tools",
         "link": "https://zipper.dev",
         "icon": "/icons/zipper.svg"
       }

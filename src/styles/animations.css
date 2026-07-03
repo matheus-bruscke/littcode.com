@@ -30,4 +30,6 @@
 @theme {
 	--animate-infinite-scroll: infinite-scroll 20s linear infinite;
 	--animate-progress-bar: progress-bar 2s linear forwards;
+	--animate-project-card-enter: card-from-bottom-to-top
+		cubic-bezier(0.4, 0, 0.2, 1) both;
 }
